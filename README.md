@@ -45,6 +45,10 @@ data-unchecked="deactivated">
 
 This plugin uses AngularJS version 1.x and the pswitch library and jQuery.
 
+## Browser compatibility
+
+Chrome, Safari, Firefox, IE9+
+
 ## License
 
 The code in this repository can be used under the MIT License.
