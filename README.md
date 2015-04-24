@@ -1,5 +1,5 @@
-# pwSwitch for AngularJS - turn boring checkboxes into pretty switches
-An AngularJS directive for the pswitch library.
+# pwSwitch for AngularJS
+Turn boring checkboxes into pretty switches. An AngularJS directive for the pswitch library.
 
 ## Demo
 
