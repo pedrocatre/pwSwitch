@@ -1,6 +1,10 @@
 # pwSwitch for AngularJS - turn boring checkboxes into pretty switches
 An AngularJS directive for the pswitch library.
 
+## Demo
+
+[http://pedrocatre.github.io/pwSwitch/#/](http://pedrocatre.github.io/pwSwitch/#/)
+
 ## Install
 
 bower install angular-pwSwitch --save
