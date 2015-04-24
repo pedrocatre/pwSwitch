@@ -1,0 +1,33 @@
+{
+  "name": "pwSwitch",
+  "version": "0.0.1",
+  "main": [
+    "dist/pwSwitch.min.js"
+  ],
+  "ignore": [
+    "src",
+    "node_modules",
+    "protractor.conf.js",
+    "gulp",
+    "gulpfile.js",
+    ".jshintrc",
+    ".editorconfig",
+    ".yo-rc.json",
+    "karma.conf.js",
+    "demo",
+    ".gitignore",
+    "bower.json",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "dependencies": {
+    "pswitch": "~0.1.5"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.4"
+  },
+  "resolutions": {
+    "jquery": "~2.1.1",
+    "angular": "~1.3.4"
+  }
+}
