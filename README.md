@@ -5,9 +5,29 @@ Turn boring checkboxes into pretty switches. An AngularJS directive for the pswi
 
 [http://pedrocatre.github.io/pwSwitch/#/](http://pedrocatre.github.io/pwSwitch/#/)
 
+## Dependencies
+
+This plugin uses AngularJS version 1.x and the [pswitch library](http://www.pischke.me/pswitch/demo/pswitch.html) and jQuery.
+
 ## Install
 
+```
 bower install angular-pwSwitch --save
+```
+
+Include the stylesheet and javascript from the pswitch dist folder into your project. 
+
+```html
+<link rel="stylesheet" type="text/css" href="bower_components/pswitch/dist/jquery.pswitch.min.css" />
+<script type="javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="javascript" src="bower_components/pswitch/dist/jquery.pswitch.min.js"></script>
+```
+
+Also include the pwSwitch angular directive from the pwSwitch dist folder, after you have included angular.
+
+```html
+<script type="javascript" src="bower_components/angular-pwSwitch/dist/pwSwitch.min.js"></script>
+```
 
 ## Usage Example
 
@@ -52,6 +72,10 @@ This plugin uses AngularJS version 1.x and the pswitch library and jQuery.
 ## Browser compatibility
 
 Chrome, Safari, Firefox, IE9+
+
+## Credits
+
+[pswitch jQuery lib](https://github.com/thmp/pswitch) for transforming the checkboxes built by [Thomas Pischke](http://www.pischke.me/)
 
 ## License
 
