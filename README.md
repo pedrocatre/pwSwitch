@@ -65,6 +65,30 @@ data-unchecked="deactivated">
 </pw-switch>
 ```
 
+To change the switch color, just pass the color code for the switch:
+
+```html
+<pw-switch ng-model="switchValue"
+r="140"
+g="25"
+b="30">
+</pw-switch>
+```
+
+To control if the switch is enabled or disabled pass it in:
+
+```html
+<pw-switch ng-model="switchValue"
+enabled="switchValueEnabled"></pw-switch>
+```
+
+To go to a flat-ui style pass flat=true:
+
+```html
+<pw-switch ng-model="switchValue"
+flat="true"></pw-switch>
+```
+
 ## Dependencies
 
 This plugin uses AngularJS version 1.x and the pswitch library and jQuery.
