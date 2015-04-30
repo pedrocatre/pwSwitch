@@ -23,10 +23,12 @@
       link: function (scope, element, attrs, ngModel) {
         var r = parseInt(attrs.r) || 30,
           g = parseInt(attrs.g) || 87,
-          b = parseInt(attrs.b) || 153;
+          b = parseInt(attrs.b) || 153,
+          flat = scope.$eval(attrs.flat);
 
         element.addClass('pswitch');
-        element.pswitch({r: r, g: g, b: b});
+
+        element.pswitch({r: r, g: g, b: b, flat: flat});
 
         if(!ngModel) {
           return;
