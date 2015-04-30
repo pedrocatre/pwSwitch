@@ -41,42 +41,59 @@
                  ng-false-value="'DEACTIVATED'"
                  data-checked="activated"
                  data-unchecked="deactivated"></pw-switch>
-      <p>Switch value: {{ PwSwitchDocs.switch2Value }}</p>
-
+      <p>Switch value: {{ PwSwitchDocs.switch4Value }}</p>
+    </div>
+    <div class="col-md-12">
+      <pw-switch ng-model="PwSwitchDocs.switch8Value"
+                 r="140"
+                 g="25"
+                 b="30"
+                 enabled="PwSwitchDocs.switch8Enabled"
+                 ng-true-value="'ACTIVE'"
+                 ng-false-value="'DEACTIVATED'"
+                 data-checked="activated"
+                 data-unchecked="deactivated"></pw-switch>
+      <p>Switch value: {{ PwSwitchDocs.switch8Value }}</p>
+    </div>
+    <div class="col-md-12">
+      <button class="btn btn-default" ng-click="PwSwitchDocs.toggleEnableSwitch()" type="submit">Toggle Enable Switch</button>
+    </div>
+    <div class="col-md-12">
       <h3>Optional flat-ui</h3>
-      <div class="col-md-12">
-        <pw-switch ng-model="PwSwitchDocs.switch1Value" ng-true-value="'ACTIVE'" ng-false-value="'DEACTIVATED'"
-                   r="25"
-                   g="120"
-                   b="30"
-                   flat="true"
-                   data-checked="activated"
-                   data-unchecked="deactivated"></pw-switch>
-        <p>Switch value: {{ PwSwitchDocs.switch1Value }}</p>
-      </div>
-      <div class="col-md-12">
-        <pw-switch ng-model="PwSwitchDocs.switch2Value"
-                   r="140"
-                   g="25"
-                   b="30"
-                   flat="true"
-                   ng-true-value="'ACTIVE'"
-                   ng-false-value="'DEACTIVATED'"
-                   data-checked="activated"
-                   data-unchecked="deactivated"></pw-switch>
-        <p>Switch value: {{ PwSwitchDocs.switch2Value }}</p>
-      </div>
-      <div class="col-md-12">
-        <pw-switch ng-model="PwSwitchDocs.switch4Value"
-                   r="140"
-                   g="25"
-                   b="30"
-                   flat="true"
-                   ng-true-value="'ACTIVE'"
-                   ng-false-value="'DEACTIVATED'"
-                   data-checked="activated"
-                   data-unchecked="deactivated"></pw-switch>
-        <p>Switch value: {{ PwSwitchDocs.switch2Value }}</p>
+    </div>
+    <div class="col-md-12">
+      <pw-switch ng-model="PwSwitchDocs.switch5Value" ng-true-value="'ACTIVE'" ng-false-value="'DEACTIVATED'"
+                 r="25"
+                 g="120"
+                 b="30"
+                 flat="true"
+                 data-checked="activated"
+                 data-unchecked="deactivated"></pw-switch>
+      <p>Switch value: {{ PwSwitchDocs.switch5Value }}</p>
+    </div>
+    <div class="col-md-12">
+      <pw-switch ng-model="PwSwitchDocs.switch6Value"
+                 r="140"
+                 g="25"
+                 b="30"
+                 flat="true"
+                 ng-true-value="'ACTIVE'"
+                 ng-false-value="'DEACTIVATED'"
+                 data-checked="activated"
+                 data-unchecked="deactivated"></pw-switch>
+      <p>Switch value: {{ PwSwitchDocs.switch6Value }}</p>
+    </div>
+    <div class="col-md-12">
+      <pw-switch ng-model="PwSwitchDocs.switch7Value"
+                 r="140"
+                 g="25"
+                 b="30"
+                 flat="true"
+                 ng-true-value="'ACTIVE'"
+                 ng-false-value="'DEACTIVATED'"
+                 data-checked="activated"
+                 data-unchecked="deactivated"></pw-switch>
+      <p>Switch value: {{ PwSwitchDocs.switch7Value }}</p>
     </div>
     <div class="col-md-12">
       <p><strong>Compatibility:</strong> Chrome, Safari, Firefox, IE9+</p>

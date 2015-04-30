@@ -1,6 +1,6 @@
 {
   "name": "pw-switch",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Pedro Catré",
   "description": "An AngularJS directive for the pswitch library - turn boring checkboxes into pretty switches",
   "dependencies": {},

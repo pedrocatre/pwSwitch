@@ -1,5 +1,7 @@
 'use strict';
 
+//import pwSwitch from '../pwSwitch.js';
+
 angular.module('pwSwitchDocs', ['ui.router', 'ui.bootstrap', 'pwSwitch'])
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
