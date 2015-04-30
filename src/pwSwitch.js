@@ -21,9 +21,9 @@
         model: '=ngModel'
       },
       link: function (scope, element, attrs, ngModel) {
-        var r = attrs.r || 30,
-          g = attrs.g || 87,
-          b = attrs.b || 153;
+        var r = parseInt(attrs.r) || 30,
+          g = parseInt(attrs.g) || 87,
+          b = parseInt(attrs.b) || 153;
 
         element.addClass('pswitch');
         element.pswitch({r: r, g: g, b: b});
